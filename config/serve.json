@@ -1,0 +1,31 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://magruber.sharepoint.com/SitePages/spfx.aspx",
+            "customActions": {
+                "3803d35e-8137-4ba7-a629-1ccb350b8c0c": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "Top": "Top editable area up here of the page.",
+                        "Bottom": "Bottom editable area down here of the page."
+                    }
+                }
+            }
+        },
+        "helloWorld": {
+            "pageUrl": "https://magruber.sharepoint.com/SitePages/spfx.aspx",
+            "customActions": {
+                "3803d35e-8137-4ba7-a629-1ccb350b8c0c": {
+                    "location": "ClientSideExtension.ApplicationCustomizer",
+                    "properties": {
+                        "Top": "Top editable area up here of the page.",
+                        "Bottom": "Bottom editable area down here of the page."
+                    }
+                }
+            }
+        }
+    }
+}
